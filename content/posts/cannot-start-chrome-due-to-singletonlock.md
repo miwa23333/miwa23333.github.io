@@ -1,6 +1,6 @@
 +++
 date = '2025-04-18T17:06:58+08:00'
-draft = true
+draft = false
 title = 'Cannot Start Chrome Due to Singletonlock'
 +++
 

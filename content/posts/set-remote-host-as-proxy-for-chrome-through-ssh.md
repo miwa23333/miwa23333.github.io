@@ -1,6 +1,6 @@
 +++
 date = '2025-06-09T16:03:46+08:00'
-draft = true
+draft = false
 title = '透過 SSH 將遠端主機作為 Proxy 瀏覽網頁'
 +++
 
