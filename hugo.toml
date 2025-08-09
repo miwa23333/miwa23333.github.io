@@ -2,3 +2,7 @@ baseURL = 'https://miwa23333.github.io/'
 languageCode = 'en-us'
 title = 'miwa23333'
 theme = "PaperMod"
+
+[caches]
+[caches.images]
+dir = ":cacheDir/images"
