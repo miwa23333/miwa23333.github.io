@@ -3,6 +3,10 @@ languageCode = 'en-us'
 title = 'miwa23333'
 theme = "PaperMod"
 
+[services]
+[services.googleAnalytics]
+ id = "G-3ZTQ7BMS2D"
+
 [caches]
 [caches.images]
 dir = ":cacheDir/images"
