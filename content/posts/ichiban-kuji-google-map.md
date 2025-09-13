@@ -50,3 +50,5 @@ title = '日本萬代一番賞 Google 地圖製作'
 
 ![google-my-map-import-file](/images/google-my-map-import-file.png)
 
+不過有個小提醒，現在 Google Map 好像無法一次匯入超過 2000 個地點，所以有超過的話可能要分次進行。
+
