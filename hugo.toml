@@ -21,3 +21,9 @@ url = '/dodorama'
 [[menus.main]]
 name = '動漫中文填字遊戲'
 url = '/animanga-crossword'
+[[menus.main]]
+name = 'Terms of Service'
+url = '/tos'
+[[menus.main]]
+name = 'Privacy'
+url = '/privacy'
