@@ -32,3 +32,7 @@ weight = 2
 name = 'Privacy'
 url = '/privacy'
 weight = 3
+[[menus.main]]
+name = 'Contact Us'
+url = '/contact-us'
+weight = 4
