@@ -5,8 +5,19 @@ theme = "PaperMod"
 
 [services]
 [services.googleAnalytics]
- id = "G-3ZTQ7BMS2D"
+id = "G-3ZTQ7BMS2D"
 
 [caches]
 [caches.images]
 dir = ":cacheDir/images"
+
+[menus]
+[[menus.main]]
+name = 'About'
+pageRef = '/about'
+[[menus.main]]
+name = 'Dodorama'
+url = '/dodorama'
+[[menus.main]]
+name = '動漫中文填字遊戲'
+url = '/animanga-crossword'
