@@ -21,6 +21,9 @@ name = 'Dodorama'
 url = '/dodorama'
 weight = 1
 [[menus.main]]
+name = '動漫週邊網站'
+url = '/acg-goods'
+[[menus.main]]
 name = '動漫中文填字遊戲'
 url = '/animanga-crossword'
 weight = 1
