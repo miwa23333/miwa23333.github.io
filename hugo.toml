@@ -1,7 +1,19 @@
-baseURL = 'https://miwa23333.github.io/'
-languageCode = 'en-us'
+baseURL = 'https://www.miwa23333.xyz/'
 title = 'miwa23333'
-theme = "PaperMod"
+theme = 'PaperMod'
+
+# 網站語言。內容是繁體中文，之前設成 en-us 會讓 <html lang> 與 og:locale 都變成英文。
+languageCode = 'zh-tw'
+defaultContentLanguage = 'zh-tw'
+hasCJKLanguage = true
+
+# 產生 /robots.txt（PaperMod 內建樣板：允許所有爬蟲並附上 sitemap 位置）。
+enableRobotsTXT = true
+
+[languages]
+[languages.zh-tw]
+languageName = '繁體中文'
+weight = 1
 
 [services]
 [services.googleAnalytics]
@@ -11,41 +23,100 @@ id = "G-3ZTQ7BMS2D"
 [caches.images]
 dir = ":cacheDir/images"
 
+# JSON 輸出給站內搜尋（/search/）使用。
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[taxonomies]
+tag = "tags"
+category = "categories"
+
 [params]
+description = "miwa23333 的部落格：日劇、動畫、動漫週邊與日本旅遊的觀察筆記，還有幾個自己做的小工具（Dodorama 日劇清單、動漫中文填字遊戲、動漫週邊圖鑑）和技術分享。"
+keywords = ["日劇", "動畫", "動漫週邊", "一番賞", "Dodorama", "填字遊戲", "SSH", "miwa23333"]
+author = "miwa23333"
+defaultTheme = "auto"
+DateFormat = "2006-01-02"
+mainSections = ["posts"]
+
+ShowReadingTime = true
+ShowWordCount = true
+ShowBreadCrumbs = true
+ShowPostNavLinks = true
+ShowCodeCopyButtons = true
+ShowToc = true
+ShowRssButtonInSectionTermList = true
+ShowShareButtons = false
+
 [params.adsense]
-# Must match the publisher ID in static/ads.txt
+# Google AdSense 發布商 ID，必須與 static/ads.txt 一致。
 publisherId = "ca-pub-7263548902633054"
+
+[params.label]
+text = "miwa23333"
+
+# 首頁最上方的自我介紹區塊。
+[params.homeInfoParams]
+Title = "嗨，我是 miwa23333 👋"
+Content = """
+這裡記錄我對日劇、動畫和動漫週邊的觀察，偶爾也寫一些工程上踩到的坑。
+
+我也做了幾個小工具，歡迎試用：[Dodorama](/dodorama/) 整理日劇資訊與觀劇清單、[動漫中文填字遊戲](/animanga-crossword/) 用動畫名稱玩填字、[動漫週邊圖鑑](/acg-goods/) 追蹤週邊收藏進度。
+"""
+
+[[params.socialIcons]]
+name = "github"
+title = "GitHub"
+url = "https://github.com/miwa23333"
+
+[[params.socialIcons]]
+name = "email"
+title = "Email"
+url = "mailto:dodorama0519@gmail.com"
+
+[[params.socialIcons]]
+name = "rss"
+title = "RSS"
+url = "/index.xml"
 
 [menus]
 [[menus.main]]
 name = 'About'
 pageRef = '/about'
-weight = 1
+weight = 10
 [[menus.main]]
 name = 'Dodorama'
-url = '/dodorama'
-weight = 1
-[[menus.main]]
-name = '動漫週邊網站'
-url = '/acg-goods'
-weight = 1
+url = '/dodorama/'
+weight = 20
 [[menus.main]]
 name = '動漫中文填字遊戲'
-url = '/animanga-crossword'
-weight = 1
+url = '/animanga-crossword/'
+weight = 30
+[[menus.main]]
+name = '動漫週邊圖鑑'
+url = '/acg-goods/'
+weight = 40
+[[menus.main]]
+name = '標籤'
+pageRef = '/tags'
+weight = 50
+[[menus.main]]
+name = '搜尋'
+pageRef = '/search'
+weight = 60
 [[menus.main]]
 name = 'Terms of Service'
-url = '/tos'
-weight = 2
+url = '/tos/'
+weight = 70
 [[menus.main]]
 name = 'Privacy'
-url = '/privacy'
-weight = 3
+url = '/privacy/'
+weight = 80
 [[menus.main]]
 name = 'Contact Us'
-url = '/contact-us'
-weight = 4
+url = '/contact-us/'
+weight = 90
 [[menus.main]]
 name = 'Sitemap'
-url = '/sitemappa'
-weight = 5
+url = '/sitemappa/'
+weight = 100
