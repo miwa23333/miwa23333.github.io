@@ -11,6 +11,11 @@ id = "G-3ZTQ7BMS2D"
 [caches.images]
 dir = ":cacheDir/images"
 
+[params]
+[params.adsense]
+# Must match the publisher ID in static/ads.txt
+publisherId = "ca-pub-7263548902633054"
+
 [menus]
 [[menus.main]]
 name = 'About'

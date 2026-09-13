@@ -1,0 +1,6 @@
+{{- /* Google AdSense: loaded on the production build only. Publisher ID lives in hugo.toml (params.adsense.publisherId). */ -}}
+{{- with site.Params.adsense.publisherId }}
+{{- if hugo.IsProduction }}
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ . }}" crossorigin="anonymous"></script>
+{{- end }}
+{{- end }}
