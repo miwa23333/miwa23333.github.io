@@ -4,6 +4,9 @@ draft = false
 title = 'Sitemap'
 description = 'miwa23333 網站的所有頁面列表。'
 showToc = false
+robotsNoIndex = true
+[sitemap]
+disable = true
 +++
 
 這個網站的所有頁面：

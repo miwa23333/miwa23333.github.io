@@ -3,7 +3,6 @@ date = '2025-01-28T09:12:38+08:00'
 draft = false
 title = '沒有公開 IP？用 SSH 遠端轉發讓外部存取你的本機服務'
 description = '沒有公開 IP 也能讓外部存取本機服務：SSH 遠端 port 轉發的語法、GatewayPorts 限制，以及用 socat 建立 relay 的兩種解法。'
-tags = ['SSH', '網路', 'Linux']
 categories = ['技術']
 +++
 

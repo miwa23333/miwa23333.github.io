@@ -3,7 +3,6 @@ date = '2025-10-04T18:26:38+08:00'
 draft = false
 title = 'Baseyard Tokyo'
 description = 'Baseyard Tokyo 是日本的動漫快閃店據點，全日本共八家。介紹官網怎麼查最新展出，並分享東京店排球少年快閃店的現場照片。'
-tags = ['日本旅遊', '動漫週邊', '東京']
 categories = ['動漫']
 +++
 
