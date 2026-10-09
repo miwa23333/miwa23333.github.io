@@ -3,7 +3,6 @@ date = '2025-06-09T16:03:46+08:00'
 draft = false
 title = '透過 SSH 將遠端主機作為 Proxy 瀏覽網頁'
 description = '用 ssh -D 建立 SOCKS proxy，再讓 Chrome 透過 --proxy-server 走遠端主機的網路瀏覽網頁，適合存取限制 IP 的服務。'
-tags = ['SSH', 'Chrome', '網路']
 categories = ['技術']
 +++
 

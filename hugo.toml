@@ -27,8 +27,8 @@ dir = ":cacheDir/images"
 [outputs]
 home = ["HTML", "RSS", "JSON"]
 
+# 只保留分類。標籤在文章很少時會產生大量只有一篇文章的列表頁，對搜尋引擎與 AdSense 審核都是負擔。
 [taxonomies]
-tag = "tags"
 category = "categories"
 
 [params]
@@ -97,8 +97,8 @@ name = '動漫週邊圖鑑'
 url = '/acg-goods/'
 weight = 40
 [[menus.main]]
-name = '標籤'
-pageRef = '/tags'
+name = '分類'
+pageRef = '/categories'
 weight = 50
 [[menus.main]]
 name = '搜尋'

@@ -3,7 +3,6 @@ date = '2026-09-13T21:00:00+08:00'
 draft = false
 title = '動漫週邊圖鑑：追蹤 Jump Shop 與 MegaHouse 週邊的收藏進度'
 description = '動漫週邊圖鑑收錄了 Jump Shop「のるキャラマスコット」趴娃與 MegaHouse 抬頭娃系列共七百多件商品，可以依作品篩選、標記已擁有的品項，並產生一張收藏進度表分享。'
-tags = ['動漫週邊', '收藏', '自製工具']
 categories = ['專案', '動漫']
 +++
 

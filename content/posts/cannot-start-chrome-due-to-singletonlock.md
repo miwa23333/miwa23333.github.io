@@ -3,7 +3,6 @@ date = '2025-04-18T17:06:58+08:00'
 draft = false
 title = 'Cannot Start Chrome Due to Singletonlock'
 description = 'Chromium 因為 SingletonLock 打不開的原因：從 process_singleton_posix.cc 追到 hostname 隨 DHCP 改變，以及解法。'
-tags = ['Chrome', 'Linux', '除錯']
 categories = ['技術']
 +++
 
